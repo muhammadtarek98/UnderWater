@@ -184,7 +184,7 @@ counter_for_images = 0
 for i in range(2):
     for j in range(2):
         mean_of_all_i_this_image = plot_multi_bars_means_stds_sats(images_methods[counter_for_images], axes[i,j])
-        print mean_of_all_i_this_image      
+        print (mean_of_all_i_this_image)
         simple_chart_plot(mean_of_all_i_this_image, axes2[i,j])
         
         
